@@ -58,7 +58,7 @@ Neste projeto foi melhorado as habilidades de css, tendo ênfase na propriedade 
 
 ### Desenvolvimento contínuo
 
-UPara desenvolvimento contínuo pretendo continuar aperfeiçoando meus conhecimentos em css e começar a estudar JavaScript.
+Para desenvolvimento contínuo pretendo continuar aperfeiçoando meus conhecimentos em css e começar a estudar JavaScript.
 
 ### Recursos úteis
 
