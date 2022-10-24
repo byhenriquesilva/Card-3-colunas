@@ -1,0 +1,99 @@
+*{
+    margin: 0;   
+    padding: 0;    
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.conteiner{
+    
+    display:flex;
+    padding: 10px;
+    
+}
+.car{
+    min-height: 450px;
+    max-width: 300px;
+}
+.car.sedans{
+    background-color: hsl(31, 77%, 52%);
+    -webkit-border-top-left-radius: 10px;  /*colocando borda redonda na parte de baixo do lado esquerdo do cartão*/
+    -webkit-border-bottom-left-radius: 10px;
+}
+.car.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+.car.luxury{
+    background-color: hsl(179, 100%, 13%);
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+}
+.imagem{
+    padding: 45px 45px 30px 45px;
+}
+.title{
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 37px;
+    padding: 0px 45px 30px 45px;
+    letter-spacing: 1px;
+}
+.subtitle{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0px 45px 30px 45px;
+    line-height: 25px;
+    word-spacing: 0px;
+}
+.button{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    padding: 12px 30px 12px 30px;
+    border-radius: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    margin: 30px 45px 45px 45px;
+    cursor: pointer;
+}
+.button.Bsedans{
+    color: hsl(31, 77%, 52%) ;
+}
+.button.Bsuvs{
+    color: hsl(184, 100%, 22%);
+}
+.button.Bluxury{
+    color: hsl(179, 100%, 13%);
+}
+.attribution{
+    color: hsl(31, 77%, 52%) ;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    font-size: 13px;
+    justify-content: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+@media screen and (max-width :780px){
+    .conteiner{
+        flex-direction: column;
+    }
+}
